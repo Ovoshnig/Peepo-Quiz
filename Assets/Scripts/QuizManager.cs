@@ -192,7 +192,7 @@ public class QuizManager : MonoBehaviour
 
     private IEnumerator QuestionsLoad()
     {
-        string path = $"Assets/Resources/Questions/question{categoryIndex + 1}.json";
+        string path = $"Assets/Resources/Documents/Questions/question{categoryIndex + 1}.json";
         string json = File.ReadAllText(path);
 
         // Десериализовать объект JSONData, содержащий список вопросов
